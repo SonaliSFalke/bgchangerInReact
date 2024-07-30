@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f4f4a2;
+}
+
+.outer-container{
+  height: 100vh;
+  width: 50vw;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+  display: flex;
+  
+}
